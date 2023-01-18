@@ -1,0 +1,769 @@
+<!DOCTYPE HTML>
+
+<html lang="ja">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+ <meta http-equiv="pragma" content="no-cache">
+   <meta name="google" content="notranslate">
+
+<meta name="viewport" content="">
+
+      <link rel="apple-touch-icon" href="/manaba-iconV2.png">
+       <link rel="shortcut icon" href="https://shikoku-u.manaba.jp/faviconV2.ico" type="image/x-icon">
+   
+   <link rel="stylesheet" href="/browser_std.css" type="text/css">
+  <link rel="stylesheet" href="/portal.css?1670835339" type="text/css">
+    <link rel="stylesheet" href="/fontsize_m.css" type="text/css">
+    <link rel="stylesheet" href="/color_1.css?1670835339" type="text/css">
+  <title>四国大学 manaba - login</title>
+   <script type="text/javascript" language="Javascript1.5" src="/webat.js?1670835339">
+</script>
+<script type="text/javascript">
+var gLang = "";
+manaba.fixChromeScroll = 1;
+manaba.tpanelnowloading = 1;
+manaba.Respon = 0;
+manaba.ResponNoLoading = 0;
+var regexp = new RegExp('course_[0-9]+_attendadm', 'i');
+if (window.location.href.match(regexp) && manaba.Respon && manaba.ResponNoLoading) {
+ manaba.tpanelnowloading = 0;
+}
+manaba.embeddedCalendarTodayButton = 1;
+manaba.useMathJax = 0;
+manaba.SystemUnixTime = "63A146CB";
+manaba.sessioncheck_interval = 3600;
+manaba.sessioncheck_last = "63A146CB";
+ manaba.xhr_csrf_token = "H4sIAAAAAAAA/2Ph5DA0MjYxNTO3YOHg4GBmZGBg4FJISTRLTTWwNDQ2MUxLTTQ2MU9MNkyzNEgyTTFMTEpLs+AEqgpOLS7OzM/zTAEAKqN3sEMAAAA=";
+manaba.storeTableSortField = 0;
+manaba.inputImageTitleFix = 0;
+manaba.useWebSocketSubscription = 0;
+manaba.WebSocketSubscriptionTokens = [];
+manaba.WebSocketSubscriptionHandlers = {};
+manaba.WebSocketSubscriberInterval = 0 || 10000;
+manaba.WebSocketSubscriberIntervalHandlers = [];
+manaba.WebSocketSubscriberErrorHandlers = [];
+manaba.WebSocketSubscriberConnectionErrorHandlers = [];
+manaba.ExportTextAreaCounterUpdater = 1;
+manaba.dateLoaded = new Date();
+manaba.usejsonparse = 1;
+manaba.reproduct95908 = 0;
+manaba.disable_submit_button_active = 1;
+manaba.reproduct111596 = 0;
+manaba.timeLimitAlertMessage = 0;
+manaba.reproduct227112 = 0;
+manaba.reproduct239249 = 0;
+manaba.pcviewresponsive = 1;
+</script>
+ <script type="text/javascript" language="Javascript1.5" src="/manaba.js?1670835339">
+ </script>
+    <script type="text/javascript">
+manaba.useBoardStateSave = 1;
+manaba.enableMovablePanel = 0;
+manaba.enableExtraHTTPHeaders = 0;
+manaba.postMessageOrigin = "";
+manaba.enableInsertWithoutRange = 1;
+manaba.tpanelblockchattering = 1;
+manaba.useHTMLPanel = 1;
+
+// for member selector
+manaba.groupmemberselector_foreach = function(cb) {
+ var root = document.getElementById('manaba_groupmember_selector');
+ if (! root) {
+  return;
+ }
+ var elements = getElementsByClass('manaba_groupmember_selector', root, 'input');
+ var elen = elements.length;
+ for (var i = 0; i < elen; ++i) {
+  cb(elements[i]);
+ }
+};
+manaba.groupmemberselector_checkall = function() {
+ manaba.groupmemberselector_foreach(function(elem){ elem.checked = true; }); return false;
+};
+
+manaba.groupmemberselector_join_values = function(glue) {
+ if (glue == null) {
+  glue = ' ';
+ }
+ var result = '';
+ manaba.groupmemberselector_foreach(function(elem){
+  if (elem.checked) {
+   result += glue + elem.value;
+  }
+ });
+ return result;
+};
+
+manaba.append_hiddens = function(form, hiddens) {
+ for (var i = 0; i + 1 < hiddens.length; i += 2) {
+  var h = document.createElement("input");
+  h.type = "hidden";
+  h.name = hiddens[i]
+  h.value = hiddens[i + 1]
+  form.appendChild(h);
+ }
+};
+
+manaba.append_hidden_value_and_submit = function(hidden_id, val, glue, opt) {
+ var hidden = document.getElementById(hidden_id);
+ if (glue == null) {
+  glue = ' ';
+ }
+ old_value = hidden.value;
+ if (old_value == null) {
+  old_value = '';
+ } else if (old_value != '') {
+  old_value += glue;
+ }
+ hidden.value = old_value + val;
+
+ if (opt && opt['hiddens']) { manaba.append_hiddens(hidden.form, opt['hiddens']); }
+
+ if (opt && opt['withbutton']) {
+  manaba.submit_with_button(hidden.form, opt['withbutton']);
+ } else {
+  hidden.form.submit();
+ }
+};
+
+manaba.groupmemberselector_append_values_and_submit = function(hidden_id, glue, button) {
+ manaba.append_hidden_value_and_submit(hidden_id, manaba.groupmemberselector_join_values(glue), glue,
+  { 'withbutton': button }
+  );
+};
+
+manaba.set_hidden_value_and_submit = function(hidden_id, val, opt) {
+ var hidden = document.getElementById(hidden_id);
+ hidden.value = val;
+
+ if (opt && opt['hiddens']) { manaba.append_hiddens(hidden.form, opt['hiddens']); }
+ hidden.form.submit();
+};
+
+manaba.tsubmitter_set_hidden = function(hidden_id, opt) {
+ return function(val) {
+  manaba.set_hidden_value_and_submit(hidden_id, val, opt);
+ };
+};
+manaba.tsubmitter_append_hidden = function(hidden_id, glue, opt) {
+ return function(val) {
+  manaba.append_hidden_value_and_submit(hidden_id, val, glue, opt);
+ };
+};
+
+manaba.addressblankchecker = function(input, button, inusetext) {
+ return function(e) {
+  if (input.value.match(/[^,\s]/)  && button.value !== inusetext) {
+   button.disabled = false;
+  } else {
+   button.disabled = true;
+   var keycode, typename;
+   if (window.event) {
+    keycode = window.event.keyCode;
+    typename = window.event.type;
+   } else if (e) {
+    keycode = e.which;
+    typename = e.type;
+   }
+   if (typename && typename.toLowerCase() === "keypress" && keycode === 13) {
+    if (window.event) {
+     window.event.returnValue = false;
+    } else if (e) {
+     e.preventDefault();
+    }
+   }
+  }
+ };
+};
+
+manaba.blankchecker = function(input, button, inusetext) {
+ return function(e) {
+  if (input.value !== "" && button.value !== inusetext) {
+   button.disabled = false;
+  } else {
+   button.disabled = true;
+   var keycode, typename;
+   if (window.event) {
+    keycode = window.event.keyCode;
+    typename = window.event.type;
+   } else if (e) {
+    keycode = e.which;
+    typename = e.type;
+   }
+   if (typename && typename.toLowerCase() === "keypress" && keycode === 13) {
+    if (window.event) {
+     window.event.returnValue = false;
+    } else if (e) {
+     e.preventDefault();
+    }
+   }
+  }
+ };
+};
+
+manaba.add_inputchecker = function (input_id, button_id, factory, inusetext) {
+ var input = document.getElementById(input_id);
+ var button = document.getElementById(button_id);
+ var updater = factory(input, button, inusetext);
+ manaba.addevent(input, "keypress", updater);
+ manaba.addevent(input, "input", updater);
+ if (gBrowser.isIE) {
+  manaba.addevent(input, "keyup", updater);
+  manaba.addevent(input, "mouseout", updater);
+  manaba.addevent(input, "propertychange", updater);
+ }
+ updater();
+};
+
+manaba.join_checked_values = function (opt) {
+ var result = '';
+ if (! opt) { return result; }
+ var name = opt && opt['name'];
+ if (! name) { return result; }
+ var root = opt ['root'];
+ if (! root) {
+  var e = opt['event'];
+  if (e) {
+   var target = evtarget(e);
+   if (target) {
+    root = target.form;
+   }
+  }
+ }
+ if (! root) { return result; }
+
+ var glue = ('glue' in opt) ? opt['glue'] : ' ';
+ manaba.descendants_foreach(root, function(elem) {
+  if (elem.nodeType == 1 && elem.tagName == 'INPUT' && elem.name == name && elem.checked) {
+   if (result != '') {
+    result += glue;
+   }
+   result += elem.value;
+  }
+ });
+
+ return result;
+};
+
+
+
+
+manaba.pulldownmenu_img_id = function(id) {
+ return 'pulldownmenu_img_' + id;
+}
+
+manaba.pulldownmenu_id = function(id) {
+ return 'pulldownmenu_id_' + id;
+}
+
+manaba.pulldownmenu = function(id, e) {
+
+  var atarget = evtarget(e);
+  var img_target = manaba.pulldownmenu_img_id(id);
+  var pulldownnode = document.getElementById(img_target);
+  var meta = {};
+  if (pulldownnode["manaba_pulldown_meta"]) {
+    meta = pulldownnode["manaba_pulldown_meta"];
+  } else {
+    pulldownnode["manaba_pulldown_meta"] = meta;
+    meta.visible_ptarget_id = null;
+  }
+
+  var bodynode = document.body;
+
+  var pulldownmenu_closer;
+  var pulldownmenu_cleanup = function() {
+
+    if (meta.visible_ptarget_id == null) {
+      return;
+    }
+
+    var visible_ptarget = manaba.pulldownmenu_id(meta.visible_ptarget_id);
+    var elm = document.getElementById(visible_ptarget);
+    if (elm != null) {
+      var img_target = manaba.pulldownmenu_img_id(meta.visible_ptarget_id);
+      ImageBlur(document.getElementById(img_target));
+      elm.style.display='none';
+      meta.visible_ptarget_id = null;
+    }
+    manaba.removeevent(bodynode, 'click', pulldownmenu_closer);
+  };
+  meta.cleanup = pulldownmenu_cleanup;
+
+
+ var pulldownmenu_closer = function(e) {
+    var ctarget = evtarget(e);
+    // this pulldown is just opened now.
+    if (ctarget == atarget) {
+      return;
+    }
+    // clicked inside this pulldown.
+    var pulldown_target = manaba.pulldownmenu_id(id);
+    var pulldown_elm = document.getElementById(pulldown_target);
+    if (manaba.isAncestor(ctarget, pulldown_elm)) {
+      return;
+    }
+    pulldownmenu_cleanup();
+  };
+
+
+  if (meta.visible_ptarget_id == id) {
+    pulldownmenu_cleanup();
+  } else {
+    pulldownmenu_cleanup();
+
+    if (pulldownnode != null) {
+      manaba.addevent(bodynode, 'click', pulldownmenu_closer);
+
+      ImageFocus(pulldownnode);
+
+      var pulldown_target = manaba.pulldownmenu_id(id);
+      var pulldown_elm = document.getElementById(pulldown_target);
+
+      pulldown_elm.style.display='block';
+      meta.visible_ptarget_id = id;
+    }
+  }
+  return;
+};
+
+manaba.ancestor_pulldownnode = function(o) {
+ while (o) {
+  if ("manaba_pulldown_meta" in o) {
+   return o;
+  }
+  o = o.parentNode;
+ }
+ return null;
+};
+
+manaba.pulldown_close = function(e) {
+ return manaba.pulldown_close_by_target(evtarget(e));
+};
+
+manaba.pulldown_close_by_target = function(target) {
+ target = manaba.ancestor_pulldownnode(target);
+ meta = target && target["manaba_pulldown_meta"];
+ if (meta && meta.cleanup) { meta.cleanup(); }
+ return false;
+};
+
+manaba.pulldownmenu_ImageFocus = function(o) {
+  var pulldownnode = o;
+  var meta = pulldownnode && pulldownnode["manaba_pulldown_meta"];
+  if (! meta || manaba.pulldownmenu_img_id(meta.visible_ptarget_id) != o.id) {
+    ImageFocus(o);
+  }
+};
+
+manaba.pulldownmenu_ImageBlur = function(o) {
+  var pulldownnode = o;
+  var meta = pulldownnode && pulldownnode["manaba_pulldown_meta"];
+  if (! meta || manaba.pulldownmenu_img_id(meta.visible_ptarget_id) != o.id) {
+    ImageBlur(o);
+  }
+};
+
+ </script>
+
+	<style type="text/css">
+		@keyframes fadein {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+		@keyframes fadeout {
+			from {
+				opacity: 1;
+			}
+
+			to {
+				opacity: 0;
+			}
+		}
+
+		#to-top-button.to-top-button.to-top-button{
+			display:block;
+		}
+
+		#to-top-button.to-top-button.to-top-button.fade-out {
+			animation: fadeout 1s linear 0s;
+		}
+
+		#to-top-button.to-top-button.to-top-button.fade-in {
+			animation: fadein 1s linear 0s;
+		}
+
+		#to-top-button.to-top-button.to-top-button.invisible {
+			display: none;
+		}
+
+	</style>
+	<script> // グローバル変数
+		var syncerTimeout = null;
+
+		function updateToTopButton(element){
+			if (!document.body.classList.contains("responsive")) {
+				element.classList.add("invisible");
+				return;
+			}
+			
+			// 1秒ごとに処理
+			if (syncerTimeout == null) {
+				// セットタイムアウトを設定
+				syncerTimeout = setTimeout(function () {
+					// 現在、表示されているか？
+					var visible = !element.classList.contains("invisible");
+					// 最上部から現在位置までの距離を取得して、変数[now]に格納
+					var now = document.documentElement.scrollTop || document.body.scrollTop || window.scrollY;
+
+					// 最下部から現在位置までの距離を計算して、変数[under]に格納
+					var under = document.body.clientHeight - (now + document.documentElement.clientHeight);
+
+					// 最上部から現在位置までの距離(now)が500以上
+					if (now > 500) {
+						// 非表示状態だったら
+						if (!visible) {
+							// [#page-top]をゆっくりフェードインする
+							element.classList.add("fade-in");
+							element.classList.remove("invisible");
+							setTimeout(function(){
+								element.classList.remove("invisible");
+								element.classList.remove("fade-in");
+							},1000);
+						}
+					}
+					// 500px以下かつ
+					// 表示状態だったら
+					else {
+						if (visible) {
+							// [#page-top]をゆっくりフェードアウトする
+							element.classList.remove("invisible");
+							element.classList.add("fade-out");
+							setTimeout(function(){
+								element.classList.remove("fade-out");
+								element.classList.add("invisible");
+							},1000);
+						}
+					}
+					// フラグを削除
+					syncerTimeout = null;
+				}, 1000);
+			}
+		}
+
+		document.addEventListener("DOMContentLoaded", function () {
+
+			var element = document.querySelector('#to-top-button');
+			element.classList.add("to-top-button");
+			element.classList.add("invisible");
+
+			// オブザーバの設定
+			const observer = new MutationObserver(
+				function(){
+					if(document.body.classList.contains("responsive")){
+						updateToTopButton(element);
+					}else{
+						element.classList.add("invisible");
+					}
+				}
+			);
+			observer.observe(document.body, {attributes: true});
+
+			// スクロールイベントの設定
+			window.addEventListener('scroll', function() { updateToTopButton(element); });
+			
+			element.onclick =
+			function () {
+				window.scrollTo({
+					top: 0,
+					behavior: 'smooth'
+				});
+			}
+		});
+	</script>
+
+  
+        <style type="text/css">
+                  .login #orgheader , .admin .header-preview #orgheader {
+               background: transparent url("/header-school.gif?refresh=63A146CB") no-repeat scroll left 30px;
+           }
+              </style>
+    
+
+    
+
+     <style type="text/css">
+     input[type="button"],input[type="submit"],input[type="reset"]{
+      cursor:pointer;
+    /*     font-size: 12px;*/
+  color: #323232;
+  text-decoration: none;
+  /* ボタンのレイアウト*/
+  /*margin: 0px 3px;*/
+  padding: 3px 10px;
+  /* ボタンの色*/
+  background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 40%, #e2e2e2 95%, #ffffff);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(0.4, #f8f8f8), color-stop(0.95, #e2e2e2), to(#ffffff));
+  background: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 40%, #e2e2e2 95%, #ffffff);
+  /* 角丸 */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  /* ボタンの枠線*/
+  border: 1px solid;
+  border-color: #929292;
+  /* ボックスシャドウ */
+ /* -moz-box-shadow: 1px 1px 1px rgba(20, 20, 20, 0.15), inset 0px 0px 2px white;*/
+ /* -webkit-box-shadow: 1px 1px 1px rgba(20, 20, 20, 0.15), inset 0px 0px 2px white;*/
+ /* box-shadow: 1px 1px 1px rgba(20, 20, 20, 0.15), inset 0px 0px 2px white;*/
+  /* 文字シャドウ*/
+  /*text-shadow: 1px 1px 0px white;*/
+  min-height: 25px;
+   }
+     input[type="button"][disabled],input[type="submit"][disabled],input[type="reset"][disabled],
+     input[type="button"][disabled]:hover,input[type="submit"][disabled]:hover,input[type="reset"][disabled]:hover{
+      background:#f8f8f8;
+     color:#999;
+     cursor:default;
+   }
+     input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:hover{
+  background:#e3e3e3;
+}
+   </style>
+  
+   <style type="text/css">
+  .editlayout2  #Text_iframe{
+  height:397px !important;
+  }
+   .edixbox-explanation #Text_iframe{
+    height: 442px !important;
+   }
+  .edixbox-height-l #Text_iframe, .edixbox-height-l #ProjectText, .edixbox-height-l #Text {
+    height: 489px !important;
+   }
+   </style>
+
+ <style type="text/css">
+.home div.qid .qnum, .course div.qid .qnum {
+    display: inline-block;
+   float:none;
+}
+.home div.button-switchview-graph, .course div.button-switchview-graph{
+       display: inline-block;
+   float:none;
+ }
+  </style>
+ <style type="text/css">
+  .pulldown-menu ul ul label {
+   padding-right: 0;
+   display: inline-block;
+   width: 100%;
+   max-width: 160px;
+   }
+.pulldown-menu ul ul a, .pulldown-menu ul ul div{
+    padding-right : 5px;
+}
+  </style>
+
+ <style type="text/css">
+ @media (max-width:950px) {
+    .responsive .no-info {
+    height: auto;
+    }
+   .responsive .responsive-coursemenu .top-menu ul li{
+   padding-bottom: 10px;
+   }
+  .responsive-mynavi .top-menu-en ul li{
+  min-height:77px;
+   }
+  }
+  </style>
+ <style type="text/css">
+   .pagecomcontainer .file{
+    position:absolute;
+   }
+   .pagecomcontainer .inlineaf-description{
+   padding-left:30px;
+   }
+  </style>
+
+
+</head>
+
+<body onload="OnLoadHandler();FocusOnLoad();"
+  class="
+     queryformV2               "
+ >
+
+
+ 
+
+ 
+  <div id="container" class="login ">
+  <div id="header">
+   <div id="orgheader">
+    <div>                </div>
+          </div>
+
+<div id="mybutton-menu">
+
+
+       
+                
+     
+            </div><!--mybutton-menu-->
+
+
+   
+                      <div id="mylang" class="mylang-ja"><a href="login?lang=en">English</a></div>
+        
+    
+      <hr>
+    
+           
+   
+
+       <div id="myheader">
+     <tmpl_use name="mylinksmydate">
+     <div class="align"><span></span></div>
+    </div>
+   
+  </div>  
+
+<div class="pagebody "><!--pagebody start -->
+   <!-- MARKER_NOT_LOGGED_IN  -->
+<!-- NOT logged in -->
+
+
+ <div class="description">
+
+  <ul class="errmsg"><li>リンク先のページに入るにはmanabaの認証が必要です。</li>
+</div>
+
+
+ <div class="login-body">
+ <div id="login-image01"><img src="/public/links/login-image1.jpg" alt=""></div> 
+ <div id="login-image02"><img src="/public/links/login-image2.jpg" alt=""></div> 
+ <div id="login-image03"><img src="/public/links/login-image3.jpg" alt=""></div> 
+
+
+<div id="login-form-box">
+
+<h1>manaba</h1>
+
+
+ <form action=login method="POST" utn>
+ <div class="ondemandhelp">
+  IDとパスワードを入れ、［ログイン］をクリックしてください。 </div>
+
+
+ <table class="layout">
+  <tr>
+   <th class="left" style="width: 90px">ユーザID</th>
+   <td><input type="text" class="editable disableime" id="mainuserid" name="userid" onFocus='InputFocus(this)' onBlur='InputBlur(this)'></td>
+  </tr>
+    <tr>
+   <th class="left">パスワード</th>
+   <td><input type="password" class="editable disableime" name="password" onFocus='InputFocus(this)' onBlur='InputBlur(this)'></td>
+  </tr>
+  <tr>
+   <th class="left"></th>
+   <td><input type=submit id=login name=login value="ログイン"  style="margin:0"></td>
+  </tr>
+   
+ </table>
+
+
+<input type="hidden" name="manaba-form" class="manaba-hidden-command" value="1"><input type=hidden name=SessionValue1 value="H4sIAAAAAAAA/zWOvwqDMBjEgxiMQrcu3XwDjf8dHQvd+gDhUxMNtaYkn0Pfvim0y3EHvzsujBkv
+yqpu2i5kjF1IRAihAfP61OBW45AS6pNDWCQNQm832BcaRD/E6DlJswmzyRzWSVEWddEXAs1LT07U
+AtUGGJw8fdP7Y1Ao7XDgmqQzNFLmPS8rriSUVQsTV30+1jOHUamOxL5zl85ps1/nhPoHFsn5/0UM
+dtRowb6/u+4DIGsNSckAAAA=
+"><input type=hidden name=SessionValue value="@1"></form>
+
+</div><!--end of login-box-->
+
+
+
+
+
+
+<div id="login-systemnews-box">
+<div class="newsentry">
+
+<h3>
+      2020-09-17  </h3>
+<p>初期パスワード生年月日（西暦４桁＋月２桁＋日２桁）になっております。初期パスワードログインして、必ずパスワードを変更してください。ログインできない場合は、教育支援課（外線：088-665-9922、内線：3001）まで、お問い合わせください。</p>
+</div> 
+</div>
+<div id="login-information-box">
+<!--<h3>information</h3>-->
+<ul class="informationentry">
+  </ul>
+
+</div>
+
+
+</div><!-- loginbody end --><div class="login-footer  login-footerV2 login-footerV3 login-footerV4">
+
+<div id="notice">
+ <div class="notice-bata"><!--
+ Beta version<br/>このバージョンは、Firefox 10 にて表示確認を行っています。-->
+  <div id=systemversion>manaba 2.972</div>
+ </div>
+ </div>
+<div id=copyright>
+  <img src="/login_footer_copyright.gif" alt="Copyright 2011 ASAHI Net, Inc. All Rights Reserved.">
+</div>
+
+ <script type="text/javascript" language="Javascript1.5">
+ <!--
+ document.getElementById('mainuserid').focus();
+ // -->
+ </script>
+
+</div><!--login footer end-->
+
+
+
+
+
+   
+     </div><!--pagebody end -->
+    
+  <div class="pagefooter pagefooterV2 pagefooterV3 " ><!--pagefooter start -->
+     <div id=systemversion style="text-align:left;padding-left:5px;width:200px;">manaba 2.972</div><!--pagefooter end -->
+  </div>
+
+<!--スマホ用表示のときにPC用に戻すボタンを表示する。-->
+ 
+  <div style="display:none;" id="userballoon_loading_skelton"><!-- MARKER_BALLOON --><!-- この行は必ず先頭行に置く / 編集禁止 -->
+<div class="balloonpointer"><span></span></div>
+<div class="userballoonframe">
+<div class="baloonclose"><img src="/button_baloon_close.gif" onclick="return manaba.userballoon_close(event);"></div>
+<div class="userballooncontent">
+<table style="border-bottom:1px dotted #bfbfbf">
+<tr>
+<td>NOW LOADING...</td>
+</tr>
+</table>
+
+</div>
+<div class="userballoonfooter">&nbsp;</div>
+</div>
+
+</div>
+ </div>
+
+   <div class="to-top">
+     <span id="to-top-button">▲</span>
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="徳島市の大学、四国大学の紹介。学科案内、入試情報、学生生活についての詳しい解説など。">
+<meta name="keywords" content="徳島,四国,大学,短大">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no,address=no,email=no">
+<link rel="icon" href="/img/common/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="shortcut icon" href="/img/common/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" href="/img/common/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/animate.css">
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css"><link rel="stylesheet" type="text/css" href="/css/balloon.min.css"><link rel="stylesheet" type="text/css" href="/css/darktooltip.css"><link rel="stylesheet" type="text/css" href="/css/top.css?20190401"><link rel="stylesheet" type="text/css" href="/css/add.css">
+<link rel="stylesheet" type="text/css" href="/css/drawer.css" media="only screen and (max-width:640px)">
+<title>四国大学</title>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5NPN3QH');</script>
+<!-- End Google Tag Manager -->
+<!--[if lte IE 8]><script src="/js/html5shiv.min.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="/js/css3-mediaqueries.js"></script><![endif]-->
+</head>
+<body class="drawer drawer--right">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NPN3QH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="wrapper">
+<header id="header" class="drawer-navbar drawer-navbar--fixed" role="banner">
+    <div id="headerNav"></div>
+    <div class="fixbar">
+        <div class="headerInner">
+            <div class="drawer-navbar-header">
+                <h1><a href="/"><img src="/img/common/logo.gif" alt="四国大学"></a></h1>
+            <div class="spOnly langNav langNavBtnSP"><span>言語切り替え</span>
+                    <div class="langNavBox">
+                            <dl>
+                              <dt>Language</dt>
+                              <dd>
+                                <ul><li><a href="/" class="on">日本語</a></li>
+                                    <li><a href="/english/">English</a></li>
+                                    <li><a href="/chinese/">中文</a></li>
+<li><a href="/vietnam/">Tiếng Việt</a></li>
+                                </ul>
+                              </dd>
+                            </dl>
+                          </div>
+                </div>
+                   <div class="spOnly searchBtn searchBtnSP"><span>サイト内検索</span>
+                            <div class="headerSearch">
+                              <form action="/search/index.html" id="search_form">
+                                  <input type="hidden" name="cx" value="005797827872322210270:61qiy_ezqze" />
+                                  <input type="hidden" name="cof" value="FORID:9" />
+                                  <input type="hidden" name="ie" value="UTF-8" />
+                                  <input type="text" name="q" size="31" class="searchText" /><input type="submit" name="sa" value="検索" class="searchBtn" alt="検索" />
+                              </form>
+                              <script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+                            </div><!-- /.headerSearch -->
+                </div>
+                <div class="spMenu">
+                    <button type="button" class="drawer-toggle drawer-hamburger">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="drawer-hamburger-icon"></span>
+                    </button>
+                </div>
+            </div><!--/.drawer-navbar-header_end-->
+            <nav id="gNav" class="drawer-nav" role="navigation">
+                <div class="drawer-menu">
+                    <ul class="globalNav">
+                    <li class="nav-item gNav01 drawer-dropdown"><a class="drawer-menu-item" href="/about/"><span class="in">大学概要</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/about/">大学概要</a></h2>
+                            <ul class="sub-nav-group subMenu" id="aboutMenu">
+                            </ul>
+                        </div></div></li>
+                    <li class="nav-item gNav02 drawer-dropdown"><a class="drawer-menu-item" href="/academics/"><span class="in">学部<span class="dot">・</span>短大<br class="pcOnly"><span class="spOnly">・</span>大学院</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/academics/">学部・短大・大学院</a></h2>
+                            <ul class="sub-nav-group subMenu" id="academicsMenu">
+                            </ul>
+                        </div></div></li>
+                    <li class="nav-item gNav03 drawer-dropdown"><a class="drawer-menu-item" href="/admissions/"><span class="in">入試<span class="dot">・</span>入学案内</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/admissions/">入試<span class="dot">・</span>入学案内</a></h2>
+                            <ul class="sub-nav-group subMenu" id="admissionsMenu">
+                            </ul>
+                        </div></div></li>
+                    <li class="nav-item gNav04 drawer-dropdown"><a class="drawer-menu-item" href="/education/"><span class="in">教育<span class="dot">・</span>研究</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/education/">教育<span class="dot">・</span>研究</a></h2>
+                            <ul class="sub-nav-group subMenu" id="educationMenu">
+                            </ul>
+                        </div></div></li>
+                    <li class="nav-item gNav05 drawer-dropdown"><a class="drawer-menu-item" href="/campus-life/"><span class="in">キャンパスライフ</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/campus-life/">キャンパスライフ</a></h2>
+                            <ul class="sub-nav-group subMenu" id="campus-lifeMenu">
+                            </ul>
+                        </div></div></li>
+                    <li class="nav-item gNav06 drawer-dropdown"><a class="drawer-menu-item" href="/careers/"><span class="in">就職<span class="dot">・</span>キャリア</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/careers/">就職<span class="dot">・</span>キャリア</a></h2>
+                            <ul class="sub-nav-group subMenu" id="careersMenu">
+                            </ul>
+                        </div></div></li>
+                    <li class="nav-item gNav07 drawer-dropdown"><a class="drawer-menu-item" href="/international/"><span class="in">留学<span class="dot">・</span>国際交流</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/international/">留学<span class="dot">・</span>国際交流</a></h2>
+                            <ul class="sub-nav-group subMenu" id="internationalMenu">
+                            </ul>
+                        </div></div></li>
+                    <li class="nav-item gNav08 drawer-dropdown"><a class="drawer-menu-item" href="/cooperation/"><span class="in">社会<span class="dot">・</span>地域連携</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/cooperation/">社会<span class="dot">・</span>地域連携</a></h2>
+                            <ul class="sub-nav-group subMenu" id="cooperationMenu">
+                            </ul>
+                        </div></div></li>
+                    <li class="nav-item gNav09 drawer-dropdown"><a class="drawer-menu-item" href="/institution/"><span class="in">図書館<br class="pcOnly"><span class="spOnly">・</span>附属施設</span></a>
+                        <div class="sub-nav drawer-dropdown-menu"><div class="subNavIn">
+                            <h2><a href="/institution/">図書館<span class="dot">・</span>附属施設</a></h2>
+                            <ul class="sub-nav-group subMenu" id="institutionMenu">
+                            </ul>
+                        </div></div></li>
+                </ul>
+                <div class="headerNav headerInner">
+                    <ul class="targetNav">
+                        <li><a href="/prestudents/">本学で学びたい方</a></li>
+                        <li><a href="/students/">在学生の方</a></li>
+                        <li><a href="/graduate/">卒業生の方</a></li>
+                        <li><a href="/guardian/">保護者の方</a></li>
+                        <li><a href="/company/">企業の方</a></li>
+                        <li><a href="/public/">地域・教育機関の方</a></li>
+                        <li><a href="/internal/">学内専用</a></li>
+                    </ul>
+                    <ul class="headerNavBtn">
+                        <li class="line"><a href="https://page.line.me/shikopon" target="_blank"><span>LINE</span></a></li>
+                        <li class="youtube"><a href="https://www.youtube.com/channel/UCm5ahBUk9GaqUdx79eR6tLQ" target="_blank"><span>YouTube</span></a></li>
+                        <li class="request"><a href="/request/"><span>資料請求</span></a></li>
+                        <li class="access"><a href="/about/access/"><span>交通アクセス</span></a></li>
+                        <li class="contact"><a href="/contact/"><span>問い合わせ</span></a></li>
+                        <li class="searchBtn"><div class="a"><span>サイト内検索</span></div>
+                            <div class="headerSearch">
+                              <form action="/search/index.html" id="search_form">
+                                  <input type="hidden" name="cx" value="005797827872322210270:61qiy_ezqze" />
+                                  <input type="hidden" name="cof" value="FORID:9" />
+                                  <input type="hidden" name="ie" value="UTF-8" />
+                                  <input type="text" name="q" size="31" class="searchText" /><input type="submit" name="sa" value="検索" class="searchBtn" alt="検索" />
+                              </form>
+                              <script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=ja"></script>
+                            </div><!-- /.headerSearch -->
+                            </li>
+                        <li class="langNav"><div class="a"><span>言語切り替え</span></div>
+                            <div class="langNavBox">
+                            <dl>
+                              <dt>Language</dt>
+                              <dd>
+                                <ul><li><a href="/" class="on">日本語</a></li>
+                                    <li><a href="/english/">English</a></li>
+                                    <li><a href="/chinese/">中文</a></li>
+<li><a href="/vietnam/">Tiếng Việt</a></li>
+                                </ul>
+                              </dd>
+                            </dl>
+                          </div>
+                        </li>
+                        <li class="manaba"><a href="https://shikoku-u.manaba.jp/ct/login"><span>マナバコース</span></a></li>
+                        <li class="portal"><a href="https://officewww2.shikoku-u.ac.jp/portal/"><span>ポータルシステム</span></a></li>
+                    </ul>
+                </div><!--/.headerInner_end-->
+                </div><!--/.drawer-menu_end-->
+            </nav>
+        </div>
+    </div><!--/.fixbar-->
+</header>
+    <ul class="spOnly cvBtn">
+        <li class="BtnmoreShikoku"><span class="btn"><span class="ico"></span><span class="txt">四国大をもっと知る</span></span>
+          <ul>
+            <li><a href="/admissions/opencampus/">オープンキャンパス</a></li>
+            <li><a href="/admissions/tour/">四国大学・四国大学短期大学部 大学見学</a></li>
+            <li><a href="/admissions/consult/">入試相談会</a></li>
+            <li><a href="/request/">資料請求</a></li>
+            <li><a href="/asasuma/">四国大学PRムービー</a></li>
+          </ul>
+        </li>
+        <li class="Btnadmissions"><span class="btn"><span class="ico"></span><span class="txt">四国大を受験する</span></span>
+          <ul>
+            <li><a href="/admissions/">入試情報</a></li>
+            <li><a href="/admissions/WEB/">インターネット出願</a></li>
+            <li><a href="/admissions/seminar/">高大接続入試【セミナー活用タイプ】</a></li>
+            <li><a href="/admissions/q-a/">よくある質問</a></li>
+          </ul>
+        </li>
+        <li class="access"><a href="/about/access/"><span><span class="ico"></span><span class="txt">交通アクセス</span></span></a></li>
+    </ul>
+<main role="main">
+<div id="contents">
+    <article> 
+<div class="swiper-container" id="topMainSlider">
+    <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+            <a href="https://www.shikoku-u.ac.jp/100th/">
+                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/11/100th-thumb-2960x1268-16451.jpg" alt="" class="mainV">
+                <div class="title"></div>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="https://www.shikoku-u.ac.jp/admissions/webopencampus/">
+                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/04/WEBOC2022-thumb-1480x634-15391.jpg" alt="" class="mainV">
+                <div class="title"></div>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="/SustainableDeclaration/">
+                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/10/SustainableDeclaration-top-thumb-1480x633-16316.jpg" alt="" class="mainV">
+                <div class="title"></div>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="https://www.shikoku-u.ac.jp/prestudents/syakaijin-careerupprogram/">
+                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/06/topbn_syakaijin_careeaup-thumb-1480x634-15889.png" alt="" class="mainV">
+                <div class="title"></div>
+            </a>
+        </div>
+        
+        
+        <div class="swiper-slide">
+            <a href="https://www.shikoku-u.ac.jp/institution/tagriba-studio/">
+                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/09/20220907slider01-thumb-1480x634-16207.png" alt="" class="mainV">
+                <div class="title"></div>
+            </a>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</div><!--/#topSlider_end-->
+<div class="swiper-pagination"></div>
+        <div id="mainContentTop">
+            <div id="main">
+                <div class="inner">    
+                    <div class="importantBox">
+                        <h2>重要なお知らせ</h2>
+                        <ul class="noIco">
+                            <li><a href="https://www.shikoku-u.ac.jp/news/important/20221220-2.html"><span class="date">2022年12月20日</span><span class="tit"><font color=#ff0000><b>2023（令和5）年度入学試験　自己実現入試Ⅰ期の合格発表について</b></font></span></a></li>
+                            <li><a href="https://www.shikoku-u.ac.jp/news/important/20221220.html"><span class="date">2022年12月20日</span><span class="tit"><font color=#ff0000><b>2023（令和5）年度入学試験　分野別入試Ⅱ期の合格発表について</b></font></span></a></li>
+                            <li><a href="https://www.shikoku-u.ac.jp/virus/index.html"><span class="date">2022年12月19日</span><span class="tit"><font color=#ff0000><strong>新型コロナウイルスへの対応について</strong></font><br>「四国大学における新型コロナウイルス感染者の発生について」を掲載しました</span></a></li>
+                            <li><a href="https://www.shikoku-u.ac.jp/syomeisyo-moshikomi/index.html"><span class="date">2022年12月01日</span><span class="tit">証明書の申し込みについて</span></a></li>
+                            <li><a href="https://www.shikoku-u.ac.jp/SustainableDeclaration/"><span class="date">2022年07月27日</span><span class="tit">四国大学​サステナブル宣言について</span></a></li>
+                        </ul>
+                    </div><!--/.importantBox_end-->
+                
+                <div class="newsBox">
+                    <h2><span class="en">News &amp; Topics</span><span class="ja">ニュース &amp; トピックス</span></h2>
+                    <p class="newsBtn fadeIn2"><a href="news/">一覧</a></p>
+                    <ul class="col4 noIco newsList">
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/topics/20221215-3.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/202211_shikyukeiganyobou-thumb-225xauto-16622.jpg" alt="ビジネス・コミュニケーション科の片山友子教授が「子宮頸がんにならないために今からできること」と題した子宮頸がん予防のためのリーフレットを作成しました">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月15日</span>
+                            <p>ビジネス・コミュニケーション科の片山友子教授が「子宮頸がんにならないために今からできること」と題した子宮頸がん予防のためのリーフレットを作成しました</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/topics/20221215-2.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221214_syodoupafo-mansu_1-thumb-225xauto-16618.jpg" alt="書道文化学科の学生たちが徳島県議会1階ホールで「書道パフォーマンス」を行いました">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月15日</span>
+                            <p>書道文化学科の学生たちが徳島県議会1階ホールで「書道パフォーマンス」を行いました</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://shikoku-u-sports.jp/post_result/kyudo_joshiouza46th/">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221126_27_zennihonkyudozyoshiouza-thumb-225xauto-16611.jpg" alt="弓道部が「第46回全日本学生弓道女子王座決定戦」でベスト４入賞、「第46回女子東西学生弓道選抜対抗試合」で優秀選手賞を獲得しました">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月12日</span>
+                            <p>弓道部が「第46回全日本学生弓道女子王座決定戦」でベスト４入賞、「第46回女子東西学生弓道選抜対抗試合」で優秀選手賞を獲得しました</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/topics/20221209-3.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221208_indigosocks1-thumb-225xauto-16607.jpg" alt="徳島インディゴソックスのドラフト指名投手が来学されました">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月09日</span>
+                            <p>徳島インディゴソックスのドラフト指名投手が来学されました</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/topics/20221209.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221206_speechcontest1-thumb-225xauto-16604.jpg" alt="第18回英語スピーチコンテスト「吉野川杯」および第13回英語レシテーションコンテスト「眉山杯」を開催しました">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月09日</span>
+                            <p>第18回英語スピーチコンテスト「吉野川杯」および第13回英語レシテーションコンテスト「眉山杯」を開催しました</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://shikoku-u-sports.jp/post_result/20221123_26_sanchikugkusei_zyoshi/">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221123_26_zyoshisofttennis_sanchikugakusei-thumb-225xauto-16612.jpg" alt="女子ソフトテニス部が「第69回 九州・中国・四国三地区学生ソフトテニス選手権大会」団体戦・個人戦で優勝しました">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月08日</span>
+                            <p>女子ソフトテニス部が「第69回 九州・中国・四国三地区学生ソフトテニス選手権大会」団体戦・個人戦で優勝しました</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/topics/20221208.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/11/20221029suiso-thumb-225xauto-16433.jpg" alt="吹奏楽部が「第70回全日本吹奏楽コンクール」で銅賞を受賞しました【6年連続出場！】">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月08日</span>
+                            <p>吹奏楽部が「第70回全日本吹奏楽コンクール」で銅賞を受賞しました【6年連続出場！】</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/topics/20221207-2.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/IMG_9762-thumb-225xauto-16596.jpg" alt="令和４年度四国大学避難訓練（総合訓練）を実施しました">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月07日</span>
+                            <p>令和４年度四国大学避難訓練（総合訓練）を実施しました</p>
+                        </div></a></li>
+                    </ul>
+                    <h2><span class="en">Event &amp; Information</span><span class="ja">イベント &amp; インフォメーション</span></h2>
+                    <ul class="col4 noIco newsList">
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/event/20221219.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221214_syodoubunkagakkasakuhinnten_1-thumb-225xauto-16668.jpg" alt="書道文化学科作品展を阿波銀プラザにて開催します">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月19日</span>
+                            <p>書道文化学科作品展を阿波銀プラザにて開催します</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/event/20221215.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221221_hikariasobi-thumb-225xauto-16621.jpg" alt="冬の光イベント「ひかり★あそび2022」を実施します">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月15日</span>
+                            <p>冬の光イベント「ひかり★あそび2022」を実施します</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/event/20221213.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221218_esports2-thumb-225xauto-16615.jpg" alt="本学のeスポーツ部ZeSTがVALORANT大学対抗戦に出場します">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月13日</span>
+                            <p>本学のeスポーツ部ZeSTがVALORANT大学対抗戦に出場します</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/event/20221212-2.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221221_shikokudaigakusuisougakubu1-thumb-225xauto-16614.jpg" alt="四国大学吹奏楽部「第37回定期演奏会」を開催します">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月12日</span>
+                            <p>四国大学吹奏楽部「第37回定期演奏会」を開催します</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/event/20221209-2.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/20221209_tlap01-thumb-225xauto-16610.jpg" alt="T-LAP「すくすくあすたむ　本学卒業生と光で連携」が開催されます">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月09日</span>
+                            <p>T-LAP「すくすくあすたむ　本学卒業生と光で連携」が開催されます</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/event/20221206.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/11/TAGRIBAdeshaberiba4-6-thumb-225xauto-16414.jpg" alt="『#TAGRIBAでしゃべりば～身近なところから始める異文化理解～』第4回～6回のお知らせ">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月06日</span>
+                            <p>『#TAGRIBAでしゃべりば～身近なところから始める異文化理解～』第4回～6回のお知らせ</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/event/20221202-2.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/11/20221203_egrets_supportersclubfestival_winter-thumb-225xauto-16486.jpg" alt="【終了しました】「イーグレッツサポーターズクラブフェスティバル2022 WINTER」を開催します">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月02日</span>
+                            <p>【終了しました】「イーグレッツサポーターズクラブフェスティバル2022 WINTER」を開催します</p>
+                        </div></a></li>
+                        <li class="fadeIn2"><a href="https://www.shikoku-u.ac.jp/news/event/20221202.html">
+                        <div class="imgC"><div class="img">
+                         <img src="https://www.shikoku-u.ac.jp/news/assets_c/2022/12/202212_dougacontest-thumb-225xauto-16571.jpg" alt="ビジネス・コミュニケーション科の留学生が「動画作成コンテスト」を実施します">
+                        </div></div>
+                        <div class="txtBox">
+                            <span class="date">2022年12月02日</span>
+                            <p>ビジネス・コミュニケーション科の留学生が「動画作成コンテスト」を実施します</p>
+                        </div></a></li>
+                    </ul>
+                    
+                    <h2><span class="en">Admission</span><span class="ja">入試情報</span></h2>
+                    <ul class="noIco newsListAdmission">
+                        <li><a href="https://www.shikoku-u.ac.jp/news/admissions/20221220-4.html"><span class="date">2022年12月20日</span><span class="tit"><font color=#ff0000><b>2023（令和5）年度入学試験　自己実現入試Ⅰ期の合格発表について</b></font></span></a></li>
+                        <li><a href="https://www.shikoku-u.ac.jp/news/admissions/20221220-3.html"><span class="date">2022年12月20日</span><span class="tit"><font color=#ff0000><b>2023（令和5）年度入学試験　分野別入試Ⅱ期の合格発表について</b></font></span></a></li>
+                        <li><a href="https://www.shikoku-u.ac.jp/news/admissions/20221205-2.html"><span class="date">2022年12月05日</span><span class="tit">2023（令和5）年度入学試験　外国人留学生特別入学試験（Ⅲ期）の募集について</span></a></li>
+                        <li><a href="https://www.shikoku-u.ac.jp/news/admissions/20221205.html"><span class="date">2022年12月05日</span><span class="tit">2023（令和5）年度入学試験　分野別入試（Ⅲ期）の募集について</span></a></li>
+                    </ul>
+                        
+                </div><!--/.newsBox_end-->
+                <div id="calendarBoxSP" class="spOnly">
+                    <a href="/calendar/"><h2><img src="/img/top/ico-calendar.png" alt=""><span class="ja">カレンダー</span><span class="en">Calendar</span></h2>
+                    <p>イベント・入試関連イベントはこちらから</p></a>
+                  </div>
+                <div id="calendarBox" class="pcOnly">
+                        <div class="custom-calendar-wrap custom-calendar-full">
+                            <div class="custom-header clearfix">
+                                <h2><span class="ja">カレンダー</span><span class="en">Calendar</span></h2>
+                                <h3 class="custom-month-year">
+                                    <span id="custom-year" class="custom-year"></span>
+                                    <span id="custom-month" class="custom-month"></span>
+                                    <nav>
+                                        <span id="custom-prev" class="custom-prev"></span>
+                                        <span id="custom-next" class="custom-next"></span>
+                                    </nav>
+                                </h3>
+                            </div>
+                            <div id="calendar" class="fc-calendar-container"></div>
+                        </div>
+                        <ul class="calendarIco">
+                            <li class="uni">大学行事・イベント</li>
+                            <li class="admissions">入試関係</li>
+                            <li class="consult">入試相談会</li>
+                            <li class="other">その他</li>
+                        </ul>
+                <p class="tabletBtn tabletOnly"><a href="/calendar/">カレンダー詳細はこちら</a></p>
+                    </div><!--/.calendarBox_end-->
+<a href="https://www.shikoku-u.ac.jp/100th/" class="bnrSports" style="margin-bottom:10px;"><img src="/img/top/bnr-100th.png" alt="学校法人四国大学学園創立100周年記念サイト"></a>
+<a href="https://www.tagriba.com/" class="bnrSports" style="margin-bottom:10px;"><img src="/img/top/bnr-tagriba.png" alt="タグリバサイト"></a>
+<a href="/campus-life/scholarship/" class="bnrSports" style="margin-bottom:10px;"><img src="/img/top/bnr-musyoka.png" alt="高等教育の無償化"></a>
+<a href="https://shikoku-u-sports.jp/" target="_blank" class="bnrSports" style="margin-bottom:10px;"><img src="/img/top/bnr-sports.png" alt="四国大学スポーツポータルサイト"></a>
+<a href="https://www.shikoku-u.ac.jp/abroad/" target="_blank"  class="bnrSports" style="margin-bottom:10px;"><img src="/img/top/bnr-abroad.png" alt="入学を希望する外国人留学生の方はこちら"></a>
+<a href="https://www.shikoku-u.ac.jp/pc/" target="_blank"  class="bnrSports"><img src="/img/top/bnr-pc2023.png" alt="学修に必要なノートパソコン等の準備のお願い"></a>
+                </div><!--/.inner_end-->
+                <div class="kaikakuBnr">
+                    <a href="http://www2.shikoku-u.ac.jp/jimu/s-kikaku/kaikaku2017/index.html" target="_blank"><img src="/img/top/kaikaku.png" alt="大学改革ビジョン2017"></a>
+                </div>
+                <div class="academicsNav academicsNavTop">
+                    <div class="inner">
+                        <h2 class="tit01"><span class="txt"><span class="en">academics</span><span class="ja">学部ナビ</span></span></h2>
+                    <ul class="noIco col3noM academicsList">
+                            <li class="academics_lt fadeIn">
+                                <a href="/academics/lt/">
+                                <img src="https://www.shikoku-u.ac.jp/academics/assets_c/2017/01/bnr-cat-lt-thumb-358x300-5230.jpg">
+                                <div class="txt">
+                                    <h3 class="tit"><span>文学部</span><span class="en">Faculty of Literature</span></h3>
+                                    <p>日本文学・書道・国際文化の知識、技能を体得し、世界に通用する教養をも備えた人材の育成。</p>
+                                </div>
+                                </a>
+                                <div class="hover">
+                                    <ul>
+                                    <li><a href="/academics/lt/nb/">日本文学科</a></li>
+                                    <li><a href="/academics/lt/shodo/">書道文化学科</a></li>
+                                    <li><a href="/academics/lt/english-dept/">国際文化学科</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="academics_keiei fadeIn">
+                                <a href="/academics/keiei/">
+                                <img src="https://www.shikoku-u.ac.jp/academics/assets_c/2017/01/bnr-cat-keiei-thumb-358x300-5231.jpg">
+                                <div class="txt">
+                                    <h3 class="tit"><span>経営情報学部</span><span class="en">Faculty of Management and Information Science</span></h3>
+                                    <p>変化する社会、経済・技術のトレンドをいち早く察知し、それに対応できる実践力を備えた人材の育成。</p>
+                                </div>
+                                </a>
+                                <div class="hover">
+                                    <ul>
+                                    <li><a href="/academics/keiei/keiei/">経営情報学科</a></li>
+                                    <li><a href="/academics/keiei/media/">メディア情報学科</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="academics_hles fadeIn">
+                                <a href="/academics/hles/">
+                                <img src="https://www.shikoku-u.ac.jp/academics/assets_c/2017/01/bnr-cat-hles-thumb-358x300-5232.jpg">
+                                <div class="txt">
+                                    <h3 class="tit"><span>生活科学部</span><span class="en">Faculty of Human Life Science</span></h3>
+                                    <p>現代の生活を科学的な視点で分析・研究し、より質の高い生活を創造する。</p>
+                                </div>
+                                </a>
+                                <div class="hover">
+                                    <ul>
+                                    <li><a href="/academics/hles/hles/">人間生活科学科</a></li>
+                                    <li><a href="/academics/hles/kanei/">健康栄養学科</a></li>
+                                    <li><a href="/academics/hles/ed/">児童学科</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="academics_nursing fadeIn">
+                                <a href="/academics/nursing/">
+                                <img src="https://www.shikoku-u.ac.jp/academics/assets_c/2017/01/bnr-cat-nursing-thumb-358x300-5233.jpg">
+                                <div class="txt">
+                                    <h3 class="tit"><span>看護学部</span><span class="en">Faculty of Nursing</span></h3>
+                                    <p>看護に関する確かな知識と技術を身につけ、すべての人を大切にできる「やさしくて賢い」看護職の育成。</p>
+                                </div>
+                                </a>
+                                <div class="hover">
+                                    <ul>
+                                    <li><a href="/academics/nursing/nursing/">看護学科</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="academics_junior fadeIn">
+                                <a href="/academics/junior/">
+                                <img src="https://www.shikoku-u.ac.jp/academics/assets_c/2017/01/bnr-cat-junior-thumb-358x300-5234.jpg">
+                                <div class="txt">
+                                    <h3 class="tit"><span>短期大学部</span><span class="en">Junior College</span></h3>
+                                    <p>きめ細やかな教育・指導をとおして、社会の発展に寄与できる人材を養成。</p>
+                                </div>
+                                </a>
+                                <div class="hover">
+                                    <ul>
+                                    <li><a href="/academics/junior/bc/">ビジネス・コミュニケーション科</a></li>
+                                    <li><a href="/academics/junior/shokuei/">人間健康科 食物栄養専攻</a></li>
+                                    <li><a href="/academics/junior/welfare/">人間健康科 介護福祉専攻</a></li>
+                                    <li><a href="/academics/junior/youji/">幼児教育保育科</a></li>
+                                    <li><a href="/academics/junior/music/">音楽科</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="academics_graduate fadeIn">
+                                <a href="/academics/graduate/">
+                                <img src="https://www.shikoku-u.ac.jp/academics/assets_c/2017/01/bnr-cat-graduate-thumb-358x300-5235.jpg">
+                                <div class="txt">
+                                    <h3 class="tit"><span>大学院</span><span class="en">Graduate School</span></h3>
+                                    <p>専門分野を深化させ、高度専門職業人として社会で活躍できる人材の育成。</p>
+                                </div>
+                                </a>
+                                <div class="hover">
+                                    <ul>
+                                    <li><a href="/academics/graduate/lt/">文学研究科</a></li>
+                                    <li><a href="/academics/graduate/keiei/">経営情報学研究科</a></li>
+                                    <li><a href="/academics/graduate/human/">人間生活科学研究科</a></li>
+                                    <li><a href="/academics/graduate/nursing/">看護学研究科</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!--/.inner_end-->
+                </div><!--/.academicsNav_end-->
+                <!--/.longBnr   <div class="longBnr">
+                    <ul class="noIco">
+                        <li class="fadeIn"><a href="/campus-life/calendar/horan/"><img src="/img/top/bnr-fes.png" alt="芳藍祭"></a></li>
+                        <li class="fadeIn"><a href="/campus-life/sports/"><img src="/img/top/bnr-sport.jpg" alt="スポーツ・芸術分野 活動支援"></a></li>
+                    </ul>
+                </div>  _end -->
+                
+                <div class="pickup">
+                    <div class="inner">
+                        <h2 class="tit01"><span class="txt"><span class="ja">PICKUP CONTENTS</span></span></h2>
+                        <p>四国大学の旬な情報や取り組みをご紹介します。</p>
+                        <ul class="col5 noIco">
+                            <li class="fadeIn3"><a href="/institution/joint-institution/opencollege/program.html">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/08/opencollege_top_paneru-thumb-246xauto-16080.jpg" alt="四国大学オープンカレッジ">
+                                <span class="tit"><span class="in">四国大学<br>オープンカレッジ</span></span>
+                                <div class="hover">
+                                    <h2>四国大学<br>オープンカレッジ</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/cooperation/lecture/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2017/01/bnr-pickup-travelecture-thumb-246xauto-5222.jpg" alt="出張講義">
+                                <span class="tit"><span class="in">出張講義</span></span>
+                                <div class="hover">
+                                    <h2>出張講義</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/education/docs/naruto-eigo-pamphlet.pdf">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/07/2022narutokyoiku00-thumb-246xauto-15958.jpg" alt="鳴門教育大学・四国大学「小学校英語の専門人材育成プログラム」">
+                                <span class="tit"><span class="in">鳴門教育大学・四国大学「小学校英語の専門人材育成プログラム」</span></span>
+                                <div class="hover">
+                                    <h2>鳴門教育大学・四国大学「小学校英語の専門人材育成プログラム」</h2>
+                                </div>
+                            </a></li>
+                
+                            <li class="fadeIn3"><a href="/international/double-degree-program/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2021/11/ddp2022_pickupcontents-thumb-246xauto-14620.jpg" alt="ダブルディグリープログラム">
+                                <span class="tit"><span class="in">ダブルディグリープログラム</span></span>
+                                <div class="hover">
+                                    <h2>ダブルディグリープログラム</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/campus-life/transferprogram-junior/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/09/transferprogram-thumb-246xauto-16280.jpg" alt="学内編入学支援プログラム">
+                                <span class="tit"><span class="in">学内編入学支援プログラム</span></span>
+                                <div class="hover">
+                                    <h2>学内編入学支援プログラム</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/coc/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2017/05/thumb-coc-thumb-246xauto-5838.jpg" alt="地（知）の拠点整備事業">
+                                <span class="tit"><span class="in">地（知）の拠点整備事業</span></span>
+                                <div class="hover">
+                                    <h2>地（知）の拠点整備事業</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/cooperation/cocplus/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2020/04/consortium-tokushima-pickup-thumb-246xauto-11573.jpg" alt="コンソーシアムとくしま『四国大学　創業支援事業』">
+                                <span class="tit"><span class="in">コンソーシアムとくしま<br>『四国大学　創業支援事業』</span></span>
+                                <div class="hover">
+                                    <h2>コンソーシアムとくしま<br>『四国大学　創業支援事業』</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/subaru/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2018/01/thumb-subaru-thumb-246xauto-7158.jpg" alt="私立大学研究ブランディング事業（SUBARU事業）">
+                                <span class="tit"><span class="in">私立大学<br>研究ブランディング事業<br>（SUBARU事業）</span></span>
+                                <div class="hover">
+                                    <h2>私立大学<br>研究ブランディング事業<br>（SUBARU事業）</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="https://www.t-lap.net/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2021/09/T-LAP-thumb-246xauto-14438.jpg" alt="徳島光・アート教育人材育成事業 T-LAP">
+                                <span class="tit"><span class="in">徳島光・アート教育<br>人材育成事業<br> T-LAP</span></span>
+                                <div class="hover">
+                                    <h2>徳島光・アート教育<br>人材育成事業<br> T-LAP</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/coc/shinawagakucourse/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/07/sinawagaku-course-thumb-246xauto-15990.jpg" alt="まなびーあ徳島新あわ学コース講座">
+                                <span class="tit"><span class="in">まなびーあ徳島<br>新あわ学コース講座</span></span>
+                                <div class="hover">
+                                    <h2>まなびーあ徳島<br>新あわ学コース講座</h2>
+                                </div>
+                            </a></li>
+                
+                            <li class="fadeIn3"><a href="/ethical/index.html">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2020/10/ethical_pickupcontents-thumb-246xauto-12743.jpg" alt="四国大学エシカル消費自主宣言">
+                                <span class="tit"><span class="in">四国大学<br>エシカル消費自主宣言</span></span>
+                                <div class="hover">
+                                    <h2>四国大学<br>エシカル消費自主宣言</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/admissions/fee/support/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2021/09/disaster-thumb-246xauto-14439.jpg" alt="震災・豪雨災害等により被災された方へ">
+                                <span class="tit"><span class="in">震災・豪雨災害等により<br>被災された方へ</span></span>
+                                <div class="hover">
+                                    <h2>震災・豪雨災害等により<br>被災された方へ</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/about/information/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2017/01/bnr-pickup-information-thumb-246xauto-5219.jpg" alt="情報の公表">
+                                <span class="tit"><span class="in">情報の公表</span></span>
+                                <div class="hover">
+                                    <h2>情報の公表</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="http://www2.shikoku-u.ac.jp/jimu/shien/hairyo/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2020/01/gouritekihairyo_banner-thumb-246xauto-11082.jpg" alt="四国大学合理的配慮に関する取り組み">
+                                <span class="tit"><span class="in">四国大学<br>合理的配慮に関する取り組み</span></span>
+                                <div class="hover">
+                                    <h2>四国大学<br>合理的配慮に関する取り組み</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/press/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2017/01/bnr-pickup-pressrelease-thumb-246xauto-5220.jpg" alt="プレスリリース">
+                                <span class="tit"><span class="in">プレスリリース</span></span>
+                                <div class="hover">
+                                    <h2>プレスリリース</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/prestudents/education-and-training/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2017/03/nr-pickup-education-and-training-thumb-246xauto-5630.jpg" alt="【社会人対象】教育訓練給付金制度">
+                                <span class="tit"><span class="in">【社会人対象】<br>教育訓練給付金制度</span></span>
+                                <div class="hover">
+                                    <h2>【社会人対象】<br>教育訓練給付金制度</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/tokureikouza/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2017/01/bnr-pickup-tokureikouza-thumb-246xauto-5227.jpg" alt="幼稚園教諭免許状及び保育士資格取得特例講座">
+                                <span class="tit"><span class="in">幼稚園教諭免許状及び<br>保育士資格取得特例講座</span></span>
+                                <div class="hover">
+                                    <h2>幼稚園教諭免許状及び<br>保育士資格取得特例講座</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/contest-all">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2021/06/digiecon_1-thumb-246xauto-13769.jpg" alt="四国大学主催コンテストのお知らせ">
+                                <span class="tit"><span class="in">四国大学主催<br>コンテストのお知らせ</span></span>
+                                <div class="hover">
+                                    <h2>四国大学主催<br>コンテストのお知らせ</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/about/mascot/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2019/05/shikopon-aitan4-thumb-246xauto-9534.jpg" alt="マスコットキャラクターしこぽん ＆ あいたん">
+                                <span class="tit"><span class="in">マスコットキャラクター<br>しこぽん ＆ あいたん</span></span>
+                                <div class="hover">
+                                    <h2>マスコットキャラクター<br>しこぽん ＆ あいたん</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="http://www.shikoku-uni-dosokai.jp/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2017/01/bnr-pickup-dosokai-thumb-246xauto-5224.jpg" alt="四国大学同窓会">
+                                <span class="tit"><span class="in">四国大学同窓会</span></span>
+                                <div class="hover">
+                                    <h2>四国大学同窓会</h2>
+                                </div>
+                            </a></li>
+                
+                            <li class="fadeIn3"><a href="http://www2.shikoku-u.ac.jp/kodomoen/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2021/09/n-kodomoen-thumb-246xauto-14441.jpg" alt="四国大学附属認定こども園">
+                                <span class="tit"><span class="in">四国大学附属認定こども園</span></span>
+                                <div class="hover">
+                                    <h2>四国大学附属認定こども園</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/prestudents/nihongokyouinyouseikatei2020-pamphlet.pdf">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2020/03/nihongokyouinyouseikatei2020%20_banner-thumb-246xauto-11387.jpg" alt="四国大学 文学部日本語教員養成課程">
+                                <span class="tit"><span class="in">四国大学 文学部<br>日本語教員養成課程</span></span>
+                                <div class="hover">
+                                    <h2>四国大学 文学部<br>日本語教員養成課程</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/prestudents/ninteiehonsiyouseikouza_kai.pdf">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2019/11/ninteiehonsiyouseikouza_banner2-thumb-246xauto-10671.jpg" alt="四国大学生活科学部児童学科認定絵本士養成講座">
+                                <span class="tit"><span class="in">四国大学生活科学部児童学科<br>認定絵本士養成講座</span></span>
+                                <div class="hover">
+                                    <h2>四国大学生活科学部児童学科<br>認定絵本士養成講座</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/kaigokatei/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2021/09/kaigokatei1_banner-thumb-246xauto-14442.jpg" alt="津田式ケアプラン（留学生にも優しい介護過程）">
+                                <span class="tit"><span class="in">津田式ケアプラン<br>（留学生にも優しい介護過程）</span></span>
+                                <div class="hover">
+                                    <h2>津田式ケアプラン<br>（留学生にも優しい介護過程）</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/rubric/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/05/rubric000-thumb-246xauto-15699.jpg" alt="四国大学の教育リソースの提供(四国大学のルーブリック)">
+                                <span class="tit"><span class="in">四国大学の教育リソースの提供<br>(四国大学のルーブリック)</span></span>
+                                <div class="hover">
+                                    <h2>四国大学の教育リソースの提供<br>(四国大学のルーブリック)</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/acceptance-teacher/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2017/01/bnr-pickup-accepting-thumb-246xauto-5221.jpg" alt="教員公募情報">
+                                <span class="tit"><span class="in">教員公募情報</span></span>
+                                <div class="hover">
+                                    <h2>教員公募情報</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="/keijyo-ai/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2021/09/keijyo-ai00-thumb-246xauto-14404.jpg" alt="AI応用人材育成プログラム">
+                                <span class="tit"><span class="in">AI応用人材育成プログラム</span></span>
+                                <div class="hover">
+                                    <h2>AI応用人材育成プログラム</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="http://www2.shikoku-u.ac.jp/zengaku-kk-center/mdash/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2022/05/mdash000-thumb-246xauto-15653.jpg" alt="数理・データサイエンス・AI教育プログラム(リテラシーレベル）">
+                                <span class="tit"><span class="in">数理・データサイエンス・<br>AI教育プログラム<br>(リテラシーレベル）</span></span>
+                                <div class="hover">
+                                    <h2>数理・データサイエンス・<br>AI教育プログラム<br>(リテラシーレベル）</h2>
+                                </div>
+                            </a></li>
+                            <li class="fadeIn3"><a href="http://www.shikoku-uni-dosokai.jp/">
+                                <img src="https://www.shikoku-u.ac.jp/assets_c/2021/11/SUAA-thumb-246xauto-14780.png" alt="四国大学同窓会総会">
+                                <span class="tit"><span class="in">四国大学同窓会総会</span></span>
+                                <div class="hover">
+                                    <h2>四国大学同窓会総会</h2>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div><!--/.inner_end-->
+                </div><!--/.pickup_end-->
+                <div class="movieBox">
+                    <div class="dot">
+                        <div class="inner">
+                        <div class="boxLink moreShikoku fadeIn4">
+                            <h2><span>四国大学をもっと知る</span></h2>
+                            <ul class="noIco">
+                                <li><a href="/admissions/event/tour/"><img src="img/top/btn-tour.jpg" alt=""><p><span><span style="display:inline-block;font-size:90%;">四国大学・四国大学短期大学部</span><br>大学見学</span></p><div class="imgHoverStyle"><img src="img/common/ico-shikopon.png" alt="click"></div></a></li>
+                                <li><a href="/admissions/event/consult/"><img src="img/top/btn-consult.jpg" alt=""><p><span>入試相談会</span></p><div class="imgHoverStyle"><img src="img/common/ico-shikopon.png" alt="click"></div></a></li>
+                                <li><a href="/request/"><img src="img/top/btn-request.jpg" alt=""><p><span>資料請求</span></p><div class="imgHoverStyle"><img src="img/common/ico-shikopon.png" alt="click"></div></a></li>
+                                <li><a href="/pr_movie/"><img src="img/top/btn-pr-movie_new.jpg" alt=""><p><span>四国大学PRムービー</span></p><div class="imgHoverStyle"><img src="img/common/ico-shikopon.png" alt="click"></div></a></li>
+                            </ul>
+                        </div><!--/.moreShikoku_end-->
+                        <div class="boxLink admission fadeIn4">
+                            <h2><span>四国大学を受験する</span></h2>
+                            <ul class="noIco">
+                                <li><a href="/admissions/uni-junior/"><img src="img/top/btn-admission.jpg" alt=""><p><span>入試情報</span></p><div class="imgHoverStyle"><img src="img/common/ico-shikopon.png" alt="click"></div></a></li>
+                                <li><a href="/admissions/WEB/"><img src="img/top/btn-internet.jpg" alt=""><p><span>インターネット出願</span></p><div class="imgHoverStyle"><img src="img/common/ico-shikopon.png" alt="click"></div></a></li>
+                                <li><a href="/admissions/seminar/"><img src="img/top/btn-ao-taiken.jpg" alt=""><p><span>高大接続入試【セミナー活用タイプ】</span></p><div class="imgHoverStyle"><img src="img/common/ico-shikopon.png" alt="click"></div></a></li>
+                                <li><a href="/admissions/q-a/"><img src="img/top/btn-faq.jpg" alt=""><p><span>よくある質問</span></p><div class="imgHoverStyle"><img src="img/common/ico-shikopon.png" alt="click"></div></a></li>
+                            </ul>
+                        </div><!--/.admission_end-->
+                    </div><!--/.inner_end-->
+                    </div><!--/.dot_end-->
+                </div><!--/.movieBox_end-->
+            </div><!--/#main_end-->
+        </div><!--/#mainContent_end-->
+</article>
+</div><!--/#content_end-->
+<p id="pagetop"><a href="#wrapper"><span>Page Top</span></a></p>
+<footer>
+    <div class="inner">
+        <ul class="footerNav">
+            <li><a href="/site-policy/">このサイトについて</a></li>
+            <li><a href="/privacy/">個人情報保護方針</a></li>
+            <li><a href="/outside/">関連リンク</a></li>
+            <li><a href="/contact/">お問い合わせ先一覧</a></li>
+            <li><a href="/sitemap/">サイトマップ</a></li>
+        </ul>
+        <p class="accredit"><a href="/about/information/accredit/"><img src="/img/common/bnr-accredit.gif" alt="認証評価"></a></p>
+        <dl>
+            <dt><a href="/">四国大学 ・ 四国大学短期大学部</a></dt>
+        <dd>〒771-1192　徳島県徳島市応神町古川字戎子野123-1<br>TEL <a href="tel:088-665-1300" class="tel-link">088-665-1300</a>（代表）　FAX 088-665-8037</dd>
+        </dl>
+        <p id="copyright"><small>Copyright &copy; Shikoku University, All Rights Reserved.</small></p>
+    </div><!--/.inner_end-->
+</footer>
+ </main>
+</div><!--/#wrapper_end-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?ver=1.11.1"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/gnav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+<script src="/js/common.js"></script>
+<script src="/js/swiper.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    speed: 600,
+  autoplay:8000,
+  loop: true
+});
+</script>
+<script type="text/javascript" src="/js/jquery.calendario.js"></script>
+<script type="text/javascript" src="/calendar/data.js"></script>
+<script type="text/javascript" src="/js/calendar_set.js"></script>
+<script type="text/javascript" src="/js/jquery.darktooltip.js"></script>
+<script>
+$(function(){
+ // $('.movieBox').vide("img/top/movie.mp4");
+  $("ul.newsList li .img").imgLiquid({ fill: false });
+});
+//スクロールアニメーション
+if(!navigator.userAgent.match(/(iPhone|iPad|Android)/)){
+function getScrollTop(){
+    var winBtm = $(window).scrollTop() + $(window).height();
+    var targetBtm1 = $('.movieBox .moreShikoku').offset().top + 400;
+    var targetBtm2 = $('.movieBox .admission').offset().top + 300;
+    if (winBtm < targetBtm1){
+        $('.movieBox .moreShikoku').removeClass('fadeIn4On');
+    } else {
+        $('.movieBox .moreShikoku').addClass('fadeIn4On');
+    }
+    if (winBtm < targetBtm1){
+        $('.movieBox .admission').removeClass('fadeIn4On');
+    } else {
+        $('.movieBox .admission').addClass('fadeIn4On');
+    }
+}
+$(window).on("load scroll resize", getScrollTop);
+} else {
+    $('.movieBox .moreShikoku').removeClass('fadeIn4');
+    $('.movieBox .admission').removeClass('fadeIn4');
+}
+</script>
+</body>
+</html>
